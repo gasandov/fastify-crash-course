@@ -1,0 +1,20 @@
+{
+  "name": "fastify-crash-course",
+  "version": "1.0.0",
+  "description": "Fastify Introduction",
+  "main": "server.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "fastify": "^3.18.1",
+    "fastify-swagger": "^4.8.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
